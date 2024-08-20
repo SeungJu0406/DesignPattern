@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "..\Prototype\P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "..\Singleton\Singleton.csproj", "{84469FF0-6D26-4C08-B749-D9697ECC4ADF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Pattern", "Creational Pattern", "{4A7DA0CA-037D-43D6-A734-C55C849B9842}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Parrern", "Structural Parrern", "{98AD037E-1E33-4FDF-9B08-A08B0AF4D8FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Pattern", "Behavioral Pattern", "{8206AFA0-56C8-4EC0-A088-624751B49917}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +54,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E49190D-9450-4D88-AB86-1E34BE4D3065} = {4A7DA0CA-037D-43D6-A734-C55C849B9842}
+		{303F5A29-8C1D-4F2C-AF13-5AE57EF50F66} = {4A7DA0CA-037D-43D6-A734-C55C849B9842}
+		{36F877E4-76AD-4796-AAE8-B7A096AB90E4} = {4A7DA0CA-037D-43D6-A734-C55C849B9842}
+		{12DF0BE5-A4D8-4CA9-B253-7AE285CD5B7D} = {4A7DA0CA-037D-43D6-A734-C55C849B9842}
+		{84469FF0-6D26-4C08-B749-D9697ECC4ADF} = {4A7DA0CA-037D-43D6-A734-C55C849B9842}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DEADB24D-35DC-4C32-BAE7-463AA797386C}
