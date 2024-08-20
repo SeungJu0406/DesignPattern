@@ -12,18 +12,18 @@ namespace AbstractFactory.Factory
     {
         public ProductAxe CreateProductA()
         {
-            ProductAxe A = new ProductAxe2();
-            A.name = "은";
-            A.type = "도끼";
-            return A;
+            ProductAxe axe = new ProductAxe2();
+            axe.name = "은";
+            axe.type = "도끼";
+            return axe;
         }
 
         public ProductSword CreateProductB()
         {
-            ProductSword B = new ProductSword2();
-            B.name = "은";
-            B.type = "검";
-            return B;
+            ProductSword sword = new ProductSword2();
+            sword.name = "은";
+            sword.type = "검";
+            return sword;
         }
     }
 }

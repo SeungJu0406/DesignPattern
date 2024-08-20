@@ -19,11 +19,13 @@ namespace AbstractFactory
         public void AxeOperation()
         {
             ProductAxe A = factory.CreateProductA();
+
             Console.WriteLine($"{A.name}{A.type}");
         }
         public void SwordOperation()
         {
             ProductSword B = factory.CreateProductB();
+
             Console.WriteLine($"{B.name}{B.type}");
         }
     }
