@@ -10,10 +10,6 @@ namespace Builder
     {
         public Ibuilder Ibuilder;
 
-        public Director(Ibuilder Ibuilder)
-        {
-            this.Ibuilder = Ibuilder;
-        }
         public void ChangeBuilder(Ibuilder Ibuilder)
         {
             this.Ibuilder = Ibuilder;

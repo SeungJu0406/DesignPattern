@@ -7,13 +7,16 @@ namespace Builder
     {
         static void Main(string[] args)
         {
-            Builder1 builder1 = new Builder1();
-            Builder2 builder2 = new Builder2();
-
-            Director director = new Director(builder1);
+            Director director = new Director();
+            Builder1 builder1 = new Builder1();           
+          
+            director.ChangeBuilder(builder1);
             director.Make(IsPhoneNumber.No);
             Product1 product1 = builder1.GetResult();
             Console.WriteLine($"{product1.name}, {product1.age}, {product1.phoneNumber}");
+
+
+            Builder2 builder2 = new Builder2();
 
             director.ChangeBuilder(builder2);
             director.Make(IsPhoneNumber.Yes);

@@ -15,6 +15,9 @@ namespace Prototype
         {
             this.field1 = "도라에몽";
         }
+
+
+
         public Prototype(Prototype prototype)
         {
             this.field1 = prototype.field1;
