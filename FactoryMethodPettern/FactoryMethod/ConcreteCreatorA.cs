@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace FactoryMethodPettern.FactoryMethod
 {
     public class ConcreteCreatorA : Creator
-    {       
+    {
         public override IProduct CreateProduct()
         {
             ConcreteProductA A = new ConcreteProductA();
             A.name = "바나나";
             return A;
-        }        
+        }
     }
 }
