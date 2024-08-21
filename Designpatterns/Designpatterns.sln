@@ -3,23 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designpatterns", "Designpatterns.csproj", "{81926BAB-434B-490D-9741-B0314F9BCCA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Designpatterns", "Designpatterns.csproj", "{81926BAB-434B-490D-9741-B0314F9BCCA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPettern", "..\FactoryMethodPettern\FactoryMethodPettern.csproj", "{2E49190D-9450-4D88-AB86-1E34BE4D3065}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPettern", "..\FactoryMethodPettern\FactoryMethodPettern.csproj", "{2E49190D-9450-4D88-AB86-1E34BE4D3065}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "..\AbstractFactory\AbstractFactory.csproj", "{303F5A29-8C1D-4F2C-AF13-5AE57EF50F66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "..\AbstractFactory\AbstractFactory.csproj", "{303F5A29-8C1D-4F2C-AF13-5AE57EF50F66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "..\Builder\Builder.csproj", "{36F877E4-76AD-4796-AAE8-B7A096AB90E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "..\Builder\Builder.csproj", "{36F877E4-76AD-4796-AAE8-B7A096AB90E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "..\Prototype\Prototype.csproj", "{12DF0BE5-A4D8-4CA9-B253-7AE285CD5B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "..\Prototype\Prototype.csproj", "{12DF0BE5-A4D8-4CA9-B253-7AE285CD5B7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "..\Singleton\Singleton.csproj", "{84469FF0-6D26-4C08-B749-D9697ECC4ADF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "..\Singleton\Singleton.csproj", "{84469FF0-6D26-4C08-B749-D9697ECC4ADF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Pattern", "Creational Pattern", "{4A7DA0CA-037D-43D6-A734-C55C849B9842}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Parrern", "Structural Parrern", "{98AD037E-1E33-4FDF-9B08-A08B0AF4D8FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Pattern", "Behavioral Pattern", "{8206AFA0-56C8-4EC0-A088-624751B49917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "..\Adapter\Adapter.csproj", "{92A6A6B5-4E2C-4623-B0AC-A0D9FC5379B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "..\Bridge\Bridge.csproj", "{157AC2B5-A191-46D2-9987-4ACB75A0F043}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{84469FF0-6D26-4C08-B749-D9697ECC4ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84469FF0-6D26-4C08-B749-D9697ECC4ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84469FF0-6D26-4C08-B749-D9697ECC4ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A6A6B5-4E2C-4623-B0AC-A0D9FC5379B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A6A6B5-4E2C-4623-B0AC-A0D9FC5379B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A6A6B5-4E2C-4623-B0AC-A0D9FC5379B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A6A6B5-4E2C-4623-B0AC-A0D9FC5379B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157AC2B5-A191-46D2-9987-4ACB75A0F043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157AC2B5-A191-46D2-9987-4ACB75A0F043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157AC2B5-A191-46D2-9987-4ACB75A0F043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157AC2B5-A191-46D2-9987-4ACB75A0F043}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +73,8 @@ Global
 		{36F877E4-76AD-4796-AAE8-B7A096AB90E4} = {4A7DA0CA-037D-43D6-A734-C55C849B9842}
 		{12DF0BE5-A4D8-4CA9-B253-7AE285CD5B7D} = {4A7DA0CA-037D-43D6-A734-C55C849B9842}
 		{84469FF0-6D26-4C08-B749-D9697ECC4ADF} = {4A7DA0CA-037D-43D6-A734-C55C849B9842}
+		{92A6A6B5-4E2C-4623-B0AC-A0D9FC5379B8} = {98AD037E-1E33-4FDF-9B08-A08B0AF4D8FF}
+		{157AC2B5-A191-46D2-9987-4ACB75A0F043} = {98AD037E-1E33-4FDF-9B08-A08B0AF4D8FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DEADB24D-35DC-4C32-BAE7-463AA797386C}
