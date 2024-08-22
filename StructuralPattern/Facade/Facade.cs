@@ -16,6 +16,7 @@ namespace Facade
         private AdditionalFacade additional;
         public Facade()
         {
+            additional = new AdditionalFacade();
             this.sub1 = new SubClass1();
             this.sub2 = new SubClass2();
             this.sub3 = new SubClass3();
@@ -25,6 +26,7 @@ namespace Facade
             sub1.PrintFacade();
             sub2.PrintFacade();
             sub3.PrintFacade();
+            additional.AnotherOperation();
         }           
     }
 }
